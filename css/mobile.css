@@ -14,27 +14,18 @@ body {
     left: 0;
     width: 100%;
     min-width: 320px;
-    height: 100px;
+    height: 120px;
     background-color: #353535;
 }
 
 .h1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     min-width: 320px;
     height: 50px;
-}
-
-.logo-menu {
-    margin-top: 10px;
-    padding-left: 10px;
-}
-
-.user {
-    margin-top: 10px;
-    padding-right: 10px;
+    margin-top: 20px;
 }
 
 .h2 {
@@ -43,7 +34,6 @@ body {
     width: 100%;
     min-width: 320px;
     height: 50px;
-    margin-top: 10px;
 }
 
 .search-container {
@@ -77,6 +67,9 @@ body {
 .main-title h1 {
     margin: 0px 0px 0px 10px;
     padding: 10px 10px 10px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
     color: #fff;
 }
 
