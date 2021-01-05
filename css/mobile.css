@@ -151,6 +151,7 @@ body {
     min-height: 350px;
 }
 .main-title {
+    padding-left: 10px;
     background-color: #353535;
 }
 
