@@ -22,15 +22,22 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
     min-width: 320px;
     height: 50px;
+    margin: 0 auto;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .h1 label {
     height: 0;
     margin-left: 10px;
+}
+
+.h1 label img {
+    width: 25px;
+    height: 25px;
 }
 
 .h1 label:hover {
@@ -41,6 +48,19 @@ body {
     display: none;
 }
 
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.user {
+    width: 40px;
+    height: 40px;
+}
+
+.user:hover {
+    cursor: pointer;
+}
 
 .h2 {
     display: flex;
@@ -56,7 +76,7 @@ body {
     align-items: center;
     width: 80%;
     max-width: 450px;
-    height: 25px;
+    height: 30px;
     border-radius: 2px;
     background-color:#fff;
 }
@@ -82,6 +102,7 @@ body {
 .menu {
     position: absolute;
     top: 1;
+    left: 0;
     height: auto;
     width: 70%;
     margin-top: 100px;
@@ -140,6 +161,15 @@ body {
     color: #fff;
 }
 
+main > p {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
 .categories-container {
     margin-top: 60px;
     width: 100%;
@@ -166,7 +196,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     width: 80%;
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -188,7 +218,7 @@ body {
     font-size: 5.3rem;
     font-weight: 700;
     color: #f2f2f2;
-    text-shadow: -1px 2px 1px  #979797;
+    text-shadow: -1px 1px 1px  #979797;
 }
 
 .category a {
