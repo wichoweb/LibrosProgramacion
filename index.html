@@ -14,14 +14,25 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Source+Sans+Pro:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Media queries-->
+    <link rel="stylesheet" href="./css/Tablet.css" media=" (min-width: 500px)">
   </head>
 
   <body>
     <header class="header">
       <div class="h1">
-        <img src="#" alt="menu" />
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="./src/icons/menu.png" alt=""></label>
         <img src="#" alt="Logo" />
         <img src="#" alt="User" />
+        <nav class="menu">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><span><img src="./src/icons/icons8-flecha-ampliar-24.png" alt=""></span><a href="#">Elemento 1</a></li>
+            <li><span><img src="./src/icons/icons8-flecha-ampliar-24.png" alt=""></span><a href="#">Elemento 2</a></li>
+            <li><span><img src="./src/icons/icons8-flecha-ampliar-24.png" alt=""></span><a href="#">Elemento 3</a></li>
+          </ul>
+        </nav>
       </div>
       <div class="h2">
         <div class="search-container">
@@ -60,9 +71,19 @@
             <a href="|#">Ver más</a>
           </article>
 
-          <article class="category">
-            <img src="#" alt="" />
-            <a href="|#">Ver más</a>
+          <article class="category" id="css">
+            <img src="./src/images/css.png" alt="" />
+            <a href="#">Ver más</a>
+          </article>
+
+          <article class="category" id="css">
+            <img src="./src/images/css.png" alt="" />
+            <a href="#">Ver más</a>
+          </article>
+
+          <article class="category" id="css">
+            <img src="./src/images/css.png" alt="" />
+            <a href="#">Ver más</a>
           </article>
         </div>
       </section>

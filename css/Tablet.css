@@ -1,0 +1,9 @@
+.main-title h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.categories {
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 200px);
+}
