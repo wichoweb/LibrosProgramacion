@@ -48,12 +48,21 @@ body {
 }
 
 .search-container > input {
-    width: 65%;
+    width: 80%;
     height: 70%;
     outline: none;
     border: none;
     margin-right: 10px;
     border-right: 1px solid black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.search-container > input::placeholder {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.search-container img {
+    width: 15px;
 }
 
 .image-main {
@@ -140,16 +149,21 @@ body {
     background-color: #f2f2f2;
 }
 
-.category:hover a {
-    border-bottom: 1px solid #353535;
-}
-
 #js {
     background-color: #ffe600;
 }
 
 #py {
     background-color: #3771a1;
+}
+
+#html5 {
+    background-color: #e44d26;
+}
+
+#html5 > img {
+    margin-top: 10px;
+   max-width: 120px;
 }
 footer {
     width: 100%;
