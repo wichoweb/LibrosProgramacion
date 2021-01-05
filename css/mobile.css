@@ -177,6 +177,7 @@ main > p {
     width: 100%;
     min-width: 320px;
     text-align: center;
+    margin: 0;
 }
 
 .categories-container p {
@@ -191,6 +192,8 @@ main > p {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3, 200px);
+    width: 95%;
+    
 }
 
 .category {
