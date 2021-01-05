@@ -29,6 +29,7 @@ body {
 }
 
 .h1 label {
+    height: 0;
     margin-left: 10px;
 }
 
@@ -102,6 +103,7 @@ body {
 
 #btn-menu:checked ~ .menu{
     margin-left: 0;
+    transition: 300ms;
 }
 
 .menu span img{
