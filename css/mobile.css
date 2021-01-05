@@ -14,7 +14,7 @@ body {
     left: 0;
     width: 100%;
     min-width: 320px;
-    height: 120px;
+    height: 130px;
     background-color: #353535;
 }
 
@@ -54,6 +54,7 @@ body {
 }
 
 .user {
+    margin-right: 20px;
     width: 40px;
     height: 40px;
 }
@@ -77,6 +78,7 @@ body {
     width: 80%;
     max-width: 450px;
     height: 30px;
+    margin-right: 10px;
     border-radius: 2px;
     background-color:#fff;
 }
