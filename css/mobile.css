@@ -272,6 +272,23 @@ main > p {
     margin-top: 10px;
    max-width: 120px;
 }
+
+.more-categories {
+    margin: 30px 0;
+}
+
+.more-categories a {
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #2873ff;
+}
+
+.more-categories a:hover {
+    border-bottom: 1px solid #2873ff;
+}
+
 footer {
     width: 100%;
     min-width: 320px;
